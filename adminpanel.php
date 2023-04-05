@@ -10,7 +10,7 @@
 <html>
 	<head>
 		<!-- title of our page -->
-		<title>SMRequests Development | Admin Panel</title>
+		<title>SMRequests Self-Service | Admin Panel</title>
 
 		<!-- include fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
@@ -36,10 +36,11 @@
 		</script>
 	</head>
 	<body>
+	<?php include('nav.php'); ?>
 		<div class="site-header">
 			<div class="site-header-pad">
 				<a class="header-home-link" href="index.php">
-					SMRequests.Dev
+				SMRequests Self-Service
 				</a>
 			</div>
 		</div>
@@ -48,6 +49,9 @@
 				<div class="site-content-section">
 					<div class="site-content-section-inner">
 						<div class="section-heading">Admin Panel</div>
+						<div class="section-mid-container">This page is under construction, but the SMRequests Admin team looks forward
+														   to providing a user-interface for administrative functions, including user emulation, soon.<br><br>
+														   Return <a href=index.php>home</a>.</div>
 						<div class="admin-sub-heading">Logged in as <?php echo $_SESSION['user_info']['first_name']; ?> <?php echo $_SESSION['user_info']['last_name']; ?></div>
 						<!-- Add table with users accounts and management buttons -- Edit Account - Add/Remove Premium - Suspend Account - Force Re-auth
 						

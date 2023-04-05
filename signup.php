@@ -94,8 +94,8 @@
 	<body>
 		<div class="site-header">
 			<div class="site-header-pad">
-				<a class="header-home-link" href="index.php">
-					SMRequests.Dev
+			<a class="header-home-link" href="index.php">
+				SMRequests Self-Service
 				</a>
 			</div>
 		</div>
@@ -162,7 +162,7 @@
 						<div class="section-action-container">
 							<a href="<?php echo $twitchLoginUrl; ?>" class="a-twitch">
 								<div class="twitch-button-container">
-									Login with Twitch (PHP)
+									Sign Up with Twitch (PHP)
 								</div>
 							</a>
 						</div>
